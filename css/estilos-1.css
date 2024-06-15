@@ -61,4 +61,8 @@ body {
     height: 100%;
 }
 
+.all-games .game-description .text{
+    font-size: 12px;
+    color: #111;
+}
 
