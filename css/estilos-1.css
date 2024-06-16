@@ -24,13 +24,13 @@ body {
 }
 
 .games {
-    margin: 0px 140px;
-    padding: 20px 20px;
+    margin: 10px 140px;
+    padding: 30px 20px;
     background-color: #BC105C;
 }
 
 .games-subtitle {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -45,7 +45,7 @@ body {
     text-align: right;
     font-size: 18px;
     font-weight: 600;
-    border-bottom: 1px dotted #BC105C;
+    border-bottom: 2px dotted #BC105C;
     color: #BC105C;
 }
 
