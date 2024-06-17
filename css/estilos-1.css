@@ -26,6 +26,7 @@ body {
 .games {
     margin: 10px 140px;
     padding: 30px 20px;
+    border-radius: 8px;
     background-color: #BC105C;
 }
 
@@ -82,4 +83,14 @@ body {
 
 .button-box .button:hover {
     background-color: #BC105C;
+}
+
+.foot {
+    padding: 20px;
+    margin: 20px 140px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #E96093;
 }
