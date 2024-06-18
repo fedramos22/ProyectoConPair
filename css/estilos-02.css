@@ -130,6 +130,7 @@ header:hover {
     text-align: right;
     margin-left: 15px;
     margin: 10px;
+    margin-top: 18px;
 }
 
 .botones .boton {
@@ -145,7 +146,7 @@ header:hover {
 
 .box-game .buy-button {
     margin: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .buy-button .buy {
