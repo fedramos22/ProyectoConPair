@@ -96,7 +96,8 @@ body {
 }
 
 .botones .boton {
-    cursor: none;
+    color: transparent;
+    cursor: default;
 }
 
 .foot {
