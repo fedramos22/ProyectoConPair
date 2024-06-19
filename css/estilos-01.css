@@ -23,6 +23,12 @@ body {
     font-size: 50px;
 }
 
+.head-title .logo i {
+    float: left;
+    color: transparent;
+    margin: 0%;
+}
+
 .games {
     margin: 10px 140px;
     padding: 30px 20px;
@@ -31,10 +37,13 @@ body {
 }
 
 .message {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
 }
 
+.box-message i {
+    color: transparent;
+}
 
 .games .box-game {
     background-color: #fff;
@@ -43,18 +52,25 @@ body {
     border-radius: 6px;
 }
 
-.box-game .game-title {
-    text-align: right;
-    font-size: 18px;
+.box-game .box-title {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    font-size: 20px;
     font-weight: 600;
     border-bottom: 2px dotted #BC105C;
+}
+
+.box-title .game-title {
     color: #BC105C;
+    text-decoration: none;
 }
 
 .box-game .image {
     position: relative;
     padding: 0%;
     margin: 0%;
+    margin-top: 10px;
 }
 
 .image .game-img {
@@ -86,6 +102,11 @@ body {
     background-color: #BC105C;
 }
 
+.botones .boton {
+    color: transparent;
+    cursor: default;
+}
+
 .foot {
     padding: 20px;
     margin: 20px 140px;
@@ -95,5 +116,4 @@ body {
     border-radius: 6px;
     background-color: #E96093;
 }
-
 
