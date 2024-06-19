@@ -37,7 +37,7 @@ body {
 }
 
 .message {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -52,18 +52,25 @@ body {
     border-radius: 6px;
 }
 
-.box-game .game-title {
-    text-align: right;
-    font-size: 18px;
+.box-game .box-title {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    font-size: 20px;
     font-weight: 600;
     border-bottom: 2px dotted #BC105C;
+}
+
+.box-title .game-title {
     color: #BC105C;
+    text-decoration: none;
 }
 
 .box-game .image {
     position: relative;
     padding: 0%;
     margin: 0%;
+    margin-top: 10px;
 }
 
 .image .game-img {
@@ -109,3 +116,4 @@ body {
     border-radius: 6px;
     background-color: #E96093;
 }
+
