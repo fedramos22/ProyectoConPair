@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos-games-02.css">
+    <!-- <link rel="stylesheet" href="../css/estilos-games.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Federico Ramos - Juegos</title>
-    <link rel="stylesheet" href="../css/estilos-games.css">
 </head>
 <body>
     <header class="head-title">
-        <h1 class="title"><a href="../index.html" class="text-title">Juegos</a>
+        <h1 class="title"><a href="../index.html">Juegos</a></h1>
+        <div class="logo">
+            <i class='bx bx-moon'></i>
+        </div>
     </header>
-    <main class="contenedor">
+    <main class="games">
+        <div class="box-arrow">
+            <a href="../index.html">
+                <i class='bx bxs-chevrons-left'></i>
+            </a>
+            <a href="../pages/secondGame.html">
+                <i class='bx bxs-chevrons-right' ></i>
+            </a>
+        </div>
         <article class="box-game">
-
-            <figure class="imagen-box">
-                <img src="../assets/images/img/mario-kart-8-deluxe.jpg" alt="Imagen del juego Mario Kart 8 deluxe" class="img">
+            <!-- Se que la img esta fuera del figure, lo hice de esta manera para lograr el efecto de estar por encima del background-img-->
+            <figure class="image">
             </figure>
-
-            <div class="imagenes-box">
+            <img src="../assets/images/img/mario-kart-8-deluxe.jpg" alt="imagen del juego Mario Kart 8 deluxe" class="game-img">
+            <p class="game-title">
+                Mario Kart™ 8 Deluxe
+            </p>
+            <div class="imagenes-box"> 
                 <figure class="imgs">
                     <img src="../assets/images/img/mario-kart-8-(1).avif" alt="Imagen del juego Mario Kart 8 deluxe" class="masImg">
                 </figure>
@@ -28,25 +43,31 @@
                     <img src="../assets/images/img/mario-kart-8-(3).avif" alt="Imagen del juego Mario Kart 8 deluxe" class="masImg">
                 </figure>
             </div>
-
-            <div class="titulo-juego">
-                <a href="../index.html">Juegos</a> > Mario Kart™ 8 Deluxe
+            <div class="plataform">
+                <span class="name-plataform">Nintendo Switch</span>
             </div>
-            <div class="descripcion">Descripción</div>
-            <p class="desc-text">
-                ¡Descubre lo nuevo de Mario Kart™ 8 Deluxe y juega con nuevos personajes como Inkling chica e Inkling chico! Podrás elegir sus karts inspirados en el juego Splatoon en Parque Viaducto para el modo batalla. También hay objetos que están de regreso, como Boo, el fantasma que roba objetos, y la pluma, que se usa en el modo batalla, ¡y ahora podrás llevar dos objetos a la vez! Demuéstrale al mundo que eres el mejor en los torneos en línea o compite con tus amigos a través de internet. Con tantas opciones de control y el modo portátil, ¡siempre habrá una nueva manera de jugar en la consola Nintendo Switch™!
-            </p>
-            <div class="precio-box">
-                <div class="precio">$56.999</div>
-            </div>
-            <div class="botones">
-                <button>Comprar Ahora</button>
-            </div>
+            <figcaption class="game-description">
+                <h2 class="text">
+                    ¡Corre con Mario y sus amigos donde quieras y cuando quieras!
+                </h2>
+                <p class="text">
+                    ¡Acelera a través de las pistas del Reino Champiñón bajo el agua, en el cielo, de cabeza y sin gravedad, y llega a la meta para obtener la victoria! <br> Prepara motores en el modo multijugador local, en los torneos en línea del juego, en el modo batalla que ha sido mejorado ¡y más!
+                </p>
+                <div class="botones">
+                    <a href="#" class="boton"><i class='bx bxl-steam'></i></a>
+                    <a href="#" class="boton"><i class='bx bx-heart'></i></a>
+                    <a href="#" class="boton"><i class='bx bx-bookmark-plus'></i></a>
+                </div>
+                <div class="precio">
+                    <span>$57.699</span>
+                </div>
+                <div class="buy-button">
+                    <a href="#" class="buy">Descargar Ahora</a>
+                </div>
+            </figcaption>
         </article>
     </main>
     <footer class="foot">
-        <p class="foot-text">Desarrolado por misitio.com</p>
+        <span class="foot-text">Creado por misitio.com</span>
     </footer>
-
 </body>
-</html>
